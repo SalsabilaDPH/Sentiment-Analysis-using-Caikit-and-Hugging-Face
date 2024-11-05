@@ -12,7 +12,7 @@
 ---
 
 # Analisis Sentimen Teks menggunakan Caikit dan Hugging Face
-Author:Cognitive Class AI
+Author: Cognitive Class AI
 
 ---
 
@@ -35,7 +35,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 3. Python (v3.8+)
 4. pip (v23.0+)
 
-## 📌 Dokumentasi:
+##  Dokumentasi:
 1. Instal virtualenv <br>
    <code>pip install --user virtualenv</code>
 2. Buat virtualenv <br>
@@ -49,7 +49,65 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 6. Jalankan klien <br>
    <code>python client.py</code>
 
-## 🛠️ Penggunaan
+## Prosedur 🛠️
+<p align="justify">
+Selesaikan tugas-tugas berikut untuk mengkonfigurasi runtime Caikit dan model AI, kemudian uji dari aplikasi klien:
+</p>
+
+1. **Buat Proyek**: 
+   - Siapkan direktori dan file yang diperlukan untuk proyek Anda.
+     ```bash
+     pip install --user virtualenv  
+     mkdir -p /home/project/text-sentiment/text_sentiment  
+     cd /home/project/text-sentiment/text_sentiment
+     ```
+
+2. **Buat Spesifikasi Model Data**: 
+   - Definisikan format data yang digunakan oleh modul Caikit.
+     ```bash
+     mkdir data_model
+     cd data_model
+     touch classification.py
+     ```
+
+3. **Buat Pembungkus Model**: 
+   - Implementasikan pembungkus yang mengintegrasikan model AI dengan kerangka kerja Caikit.
+     ```bash
+     mkdir -p models/text_sentiment
+     cd models/text_sentiment
+     touch config.yml
+     mkdir runtime_model
+     cd runtime_model
+     touch hf_module.py
+     touch __init__.py
+     cd ../../..  # Kembali ke direktori proyek
+     ```
+
+4. **Sertakan Modul dan Ketergantungan Paket**: 
+   - Tentukan ketergantungan yang diperlukan dalam konfigurasi proyek Anda.
+     ```bash
+     touch requirements.txt
+     virtualenv -p python3 env
+     source env/bin/activate
+     pip install -r requirements.txt
+     ```
+
+5. **Mulai Runtime Caikit**: 
+   - Luncurkan runtime Caikit untuk melayani model untuk inferensi.
+     ```bash
+     touch start_runtime.py
+     python start_runtime.py
+     ```
+
+6. **Uji Analisis Sentimen**: 
+   - Jalankan tes untuk memvalidasi fungsi model analisis sentimen melalui aplikasi klien.
+     ```bash
+     touch client.py
+     python client.py
+     ```
+
+
+##  Penggunaan
 Setelah aplikasi berjalan, Anda dapat memasukkan teks untuk menganalisis sentimennya melalui antarmuka pengguna. Hasil analisis akan menampilkan sentimen—positif, negatif, atau netral.
 
 ## 💻 Kode Utama
@@ -111,7 +169,4 @@ RESPONSE: [Positif]
 
 Text: yet I felt sad to see it go.
 RESPONSE: [Negatif]
-
-## Hasil Contoh 📊✨
-![Gambar Analisis Sentimen](https://raw.githubusercontent.com/SalsabilaDPH/Sentiment-Analysis-using-Caikit-and-Hugging-Face/main/Screenshot%202024-11-06%20015811.png)
 
