@@ -112,7 +112,7 @@ RESPONSE: [Positif]
 Text: yet I felt sad to see it go.
 RESPONSE: [Negatif]
 
-## Example Result 📊✨
+## Hasil Contoh ✨
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/SalsabilaDPH/Sentiment_Analysis_using_Caikit_and_HuggingFace/main/](https://github.com/SalsabilaDPH/Sentiment-Analysis-using-Caikit-and-Hugging-Face.git)Screenshot 2024-11-06 015811.png" alt="Sentiment Analysis Image"/>
+  <img src="https://raw.githubusercontent.com/SalsabilaDPH/Sentiment-Analysis-using-Caikit-and-Hugging-Face/main/Screenshot%202024-11-06%20015811.png" alt="Gambar Analisis Sentimen"/>
 </p>
