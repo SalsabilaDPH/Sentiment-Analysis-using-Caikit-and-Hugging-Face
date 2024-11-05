@@ -12,7 +12,7 @@
 ---
 
 # Analisis Sentimen Teks menggunakan Caikit dan Hugging Face
-Penulis: Tim Pengembang AI
+Author:Cognitive Class AI
 
 ---
 
@@ -49,7 +49,6 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 6. Jalankan klien <br>
    <code>python client.py</code>
 
-## 🛠️ Penggunaan
 ## 🛠️ Penggunaan
 Setelah aplikasi berjalan, Anda dapat memasukkan teks untuk menganalisis sentimennya melalui antarmuka pengguna. Hasil analisis akan menampilkan sentimen—positif, negatif, atau netral.
 
